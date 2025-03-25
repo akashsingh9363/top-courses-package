@@ -21,6 +21,7 @@ function Cards (props) {
     }
     else{
       //main shirf specific category ka array pass krunga
+      //toh shirf whi category display hoga
       return courses[category];
     }
    
