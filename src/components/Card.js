@@ -7,6 +7,8 @@ export const Card = (props) => {
     let likedCourses=props.likedCourses;
     let setLikedCourses =props.setLikedCourses;
 
+
+    // this is very difficult to think.
     function clickHandler(){
         if(likedCourses.includes(course.id)){
             //phle se like hue pada hai
